@@ -1,4 +1,4 @@
-function [TG] = ReadTextGrid_Corrected_PTSVox(path, tier)
+function [TG] = ReadTextGrid(path, tier)
 a = 0; flag = 0;
 TG = [];
 fid = fopen(path);
