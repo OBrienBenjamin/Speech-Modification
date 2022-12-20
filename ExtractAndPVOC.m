@@ -31,8 +31,8 @@ PATH.Output = ['/Users/benjiobrien/Documents/LPL/Modulation/', Spk, '_', Samp, '
 
 % % % % % 
 % % % % % Do not touch
-[TG] = ReadTextGrid_Corrected_PTSVox(PATH.Text, TIER);
+[TG] = ReadTextGrid(PATH.Text, TIER);
 
-[LIN] = ExtractAndConcatV2(PATH, TG, METHOD);
+[LIN] = ExtractAndConcat(PATH, TG, METHOD);
 
 PlotDist(LIN, METHOD);
