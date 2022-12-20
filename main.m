@@ -1,15 +1,12 @@
 % % % input
-Set = 'LPL';
-Spk = 'Serge';
-Ses = '01';
-Chk = '02'; 
-Samp = [Spk, '_', Ses, '_', Chk];
+home = '/path/to/directory/'
+samp = 'example';
 
 % % % tier level -- LPL (4)
 TIER = 3;
 
-PATH.Text = ['/Users/benjiobrien/Documents/LPL/Modulation/Stimuli/', Set, '/', Spk,'/',Ses, '/Raw/',Samp,'.TextGrid'];
-PATH.Input = ['/Users/benjiobrien/Documents/LPL/Modulation/Stimuli/', Set, '/', Spk,'/',Ses, '/Raw/',Samp,'.wav'];
+PATH.Text = [home, '.TextGrid'];
+PATH.Input = [home, '.wav'];
 
 % % % Modification Mode
 METHOD.Mode = 'PITCH'; % % % 'TEMPO' or 'PITCH'
@@ -26,7 +23,7 @@ METHOD.Map = 'LIN'; %  % % 'LIN' (linear), 'EXP' (exponential), 'LOG'
 METHOD.Pause = 'F'; % % % % 'T' (keep pause), 'C' (compress pause), 'F' (remove pause)
 
 % % % output
-PATH.Output = ['/Users/benjiobrien/Documents/LPL/Modulation/', Spk, '_', Samp, '_', ...
+PATH.Output = [home, samp, '_', ...
     METHOD.Mode, '_', METHOD.Dir, '_', num2str(METHOD.Num), '_', METHOD.Map, '_', METHOD.Pause, '.wav'];
 
 % % % % % 
