@@ -1,4 +1,4 @@
-function [Plot] = ExtractAndConcatV2(PATH, TG, METHOD)
+function [Plot] = ExtractAndConcat(PATH, TG, METHOD)
 Fade.IN = 0.01; % fade out (s) for all non-pause segments
 Fade.OUT = 0.01; % fade out (s) for all non-pause segments
 
