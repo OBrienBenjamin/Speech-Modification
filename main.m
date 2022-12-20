@@ -2,7 +2,7 @@
 home = '/path/to/directory/'
 samp = 'example';
 
-% % % tier level -- LPL (4)
+% % % tier level
 TIER = 3;
 
 PATH.Text = [home, '.TextGrid'];
