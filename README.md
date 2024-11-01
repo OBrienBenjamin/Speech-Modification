@@ -5,4 +5,4 @@ For more information on this toolkit please see the following papers:
 
 O'Brien, B., Meunier, C., Ghio, A. (2022) Evaluating the effects of modified speech on perceptual speaker identification performance. Proc. Interspeech 2022, 3073-3077, doi: [https://www.isca-archive.org/interspeech_2022/obrien22_interspeech.html]
 
-O'Brien, Benjamin and Meunier, Christine and Ghio, Alain, Evaluating the Effects of Continuous Pitch and Speech Tempo Modifications on Perceptual Speaker Identification Performances by Familiar and Unfamiliar Listeners. Speech Communication 165(Pt 3):103145 [10.1016/j.specom.2024.103145]
+O'Brien, Benjamin and Meunier, Christine and Ghio, Alain, Evaluating the Effects of Continuous Pitch and Speech Tempo Modifications on Perceptual Speaker Identification Performances by Familiar and Unfamiliar Listeners. Speech Communication 165(Pt 3):103145 [https://doi.org/10.1016/j.specom.2024.103145]
